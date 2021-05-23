@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk11:ubi
+FROM adoptopenjdk/openjdk16:ubi
 ARG JAR_FILE=target/*.jar
 ENV BOT_NAME=trustytruthBot
 ENV BOT_TOKEN=1072170979:AAGRfm5ZHcqxZNfZ5tzLPnplXFhI363dQ68
