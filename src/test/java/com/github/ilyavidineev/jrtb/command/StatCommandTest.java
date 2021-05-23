@@ -1,7 +1,4 @@
-package com.github.ilyavidineev.jrtb;
-
-import com.github.ilyavidineev.jrtb.command.Command;
-import com.github.ilyavidineev.jrtb.command.StatCommand;
+package com.github.ilyavidineev.jrtb.command;
 
 import static com.github.ilyavidineev.jrtb.command.CommandName.STAT;
 import static com.github.ilyavidineev.jrtb.command.StatCommand.STAT_MESSAGE;

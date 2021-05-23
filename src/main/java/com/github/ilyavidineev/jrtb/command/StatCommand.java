@@ -15,6 +15,7 @@ public class StatCommand implements Command {
 
     public final static String STAT_MESSAGE = "Javarush Telegram Bot использует %s человек.";
 
+    @Autowired
     public StatCommand(SendBotMessageService sendBotMessageService, TelegramUserService telegramUserService) {
         this.sendBotMessageService = sendBotMessageService;
         this.telegramUserService = telegramUserService;

@@ -1,4 +1,4 @@
-package com.github.ilyavidineev.jrtb;
+package com.github.ilyavidineev.jrtb.command;
 
 import com.github.ilyavidineev.jrtb.command.Command;
 import com.github.ilyavidineev.jrtb.command.CommandContainer;

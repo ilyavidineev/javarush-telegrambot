@@ -1,7 +1,5 @@
-package com.github.ilyavidineev.jrtb;
+package com.github.ilyavidineev.jrtb.command;
 
-import com.github.ilyavidineev.jrtb.command.Command;
-import com.github.ilyavidineev.jrtb.command.StartCommand;
 import org.junit.jupiter.api.DisplayName;
 
 import static com.github.ilyavidineev.jrtb.command.CommandName.START;
