@@ -2,6 +2,7 @@ package com.github.ilyavidineev.jrtb;
 
 import com.github.ilyavidineev.jrtb.command.Command;
 import com.github.ilyavidineev.jrtb.command.StopCommand;
+import com.github.ilyavidineev.jrtb.service.TelegramUserServiceImpl;
 import org.junit.jupiter.api.DisplayName;
 
 import static com.github.ilyavidineev.jrtb.command.CommandName.STOP;
@@ -22,6 +23,6 @@ public class StopCommandTest extends AbstractCommandTest {
 
     @Override
     Command getCommand() {
-        return new StopCommand(sendBotMessageService);
+        return new StopCommand(sendBotMessageService, telegramUserService);
     }
 }
