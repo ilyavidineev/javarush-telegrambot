@@ -15,7 +15,7 @@
 	<description>Javarush TelegramBot MVP</description>
 
 	<properties>
-		<java.version>11</java.version>
+		<java.version>16</java.version>
 		<telegrambot.starter.version>5.2.0</telegrambot.starter.version>
 		<flyway.core.version>7.9.0</flyway.core.version>
 	</properties>
