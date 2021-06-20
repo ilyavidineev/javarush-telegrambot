@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.github.ilyavidineev</groupId>
 	<artifactId>javarush-telegrambot</artifactId>
-	<version>0.4.0-SNAPSHOT</version>
+	<version>0.5.0-SNAPSHOT</version>
 	<name>Javarush TelegramBot</name>
 	<description>Javarush TelegramBot MVP</description>
 
@@ -18,6 +18,8 @@
 		<java.version>13</java.version>
 		<telegrambot.starter.version>5.2.0</telegrambot.starter.version>
 		<flyway.core.version>7.9.0</flyway.core.version>
+		<unirest.version>3.11.09</unirest.version>
+		<apache.commons.version>3.11</apache.commons.version>
 	</properties>
 
 	<dependencies>
@@ -66,6 +68,18 @@
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
+		</dependency>
+
+		<dependency>
+			<groupId>com.konghq</groupId>
+			<artifactId>unirest-java</artifactId>
+			<version>${unirest.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>${apache.commons.version}</version>
 		</dependency>
 
 	</dependencies>
